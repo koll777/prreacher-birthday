@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090812">
+  <title>PRREACHER — 2K MMR EDITION</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <div id="app">
+    <header class="topbar">
+      <button class="brand" data-screen="home"><span class="brand-mark">✦</span> PRREACHER <small>2K MMR EDITION</small></button>
+      <nav class="nav">
+        <button data-screen="profile">Профиль</button><button data-screen="achievements">Достижения</button><button data-screen="settings">Настройки</button>
+      </nav>
+      <button class="sound-btn" id="soundToggle" aria-label="Звук">♫ <span>ЗВУК</span></button>
+    </header>
+    <main id="screen" aria-live="polite"></main>
+    <footer><span>UNOFFICIAL FAN-MADE BIRTHDAY PROJECT</span><span>CREATED BY MASHORKA · FOR PRREACHER</span></footer>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

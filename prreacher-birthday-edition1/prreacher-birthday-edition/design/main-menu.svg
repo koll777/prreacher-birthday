@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="bg" x2="0.9" y2="1"><stop stop-color="#211532"/><stop offset=".48" stop-color="#100d1b"/><stop offset="1" stop-color="#07070d"/></linearGradient>
+ <radialGradient id="violet"><stop stop-color="#8b55d8" stop-opacity=".7"/><stop offset="1" stop-color="#5d32a0" stop-opacity="0"/></radialGradient>
+ <radialGradient id="ember"><stop stop-color="#e86a32" stop-opacity=".6"/><stop offset="1" stop-color="#a13a22" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0bd"/><stop offset=".5" stop-color="#d8b66d"/><stop offset="1" stop-color="#8d6535"/></linearGradient>
+ <linearGradient id="button" x2="1" y2="1"><stop stop-color="#754bb2"/><stop offset="1" stop-color="#291b42"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="28"/></filter>
+ <pattern id="grid" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M70 0H0V70" fill="none" stroke="#bda6e8" stroke-opacity=".05"/></pattern>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" fill="url(#grid)"/>
+<ellipse cx="360" cy="620" rx="450" ry="470" fill="url(#violet)"/><ellipse cx="1570" cy="620" rx="430" ry="450" fill="url(#ember)"/>
+<path d="M0 850Q450 760 960 860T1920 820V1080H0Z" fill="#08070e" opacity=".85"/><path d="M0 850Q450 760 960 860T1920 820" fill="none" stroke="#76618f" stroke-opacity=".24" stroke-width="2"/>
+<!-- left shadow assassin silhouette -->
+<g transform="translate(280 240)" opacity=".93">
+ <ellipse cx="180" cy="670" rx="210" ry="38" fill="#05040a"/>
+ <path d="M110 250L65 120 145 175 190 40 228 185 315 120 265 265 320 420 290 600 235 635 195 490 150 640 80 610 105 430Z" fill="#171225" stroke="#7f58bc" stroke-width="7"/>
+ <path d="M145 190L190 40 228 185 265 265 210 330 130 285Z" fill="#34214e" stroke="#a27be0" stroke-width="4"/>
+ <path d="M125 330L30 470 75 495 175 390M270 330L390 455 355 490 240 405" fill="none" stroke="#b69be8" stroke-width="18" stroke-linecap="round"/>
+ <path d="M90 600L40 760M245 610L290 760" stroke="#15101e" stroke-width="36" stroke-linecap="round"/>
+ <path d="M65 120L-5 25M315 120L385 25" stroke="#c5a9ff" stroke-width="7" opacity=".65"/>
+ <circle cx="185" cy="245" r="12" fill="#b88cff" filter="url(#glow)"/><circle cx="185" cy="245" r="6" fill="#e7d7ff"/>
+</g>
+<!-- right skeletal archer silhouette -->
+<g transform="translate(1400 230)" opacity=".95">
+ <ellipse cx="180" cy="680" rx="220" ry="38" fill="#05040a"/>
+ <path d="M145 205L180 80 225 205 270 295 245 465 290 630 220 655 180 510 125 655 60 620 105 455 75 300Z" fill="#20140f" stroke="#bb6135" stroke-width="7"/>
+ <path d="M145 190L180 80 225 205 205 270 150 270Z" fill="#5a3021" stroke="#e58a51" stroke-width="4"/>
+ <path d="M120 300L20 180 0 210 100 390M250 300L360 180 385 205 280 390" fill="none" stroke="#d17b47" stroke-width="15" stroke-linecap="round"/>
+ <path d="M360 120Q510 340 360 570" fill="none" stroke="#ff9b50" stroke-width="8"/><path d="M350 120L350 570" stroke="#ffca87" stroke-width="3"/>
+ <path d="M105 620L55 770M240 620L285 770" stroke="#17100d" stroke-width="35" stroke-linecap="round"/>
+ <circle cx="184" cy="235" r="15" fill="#ff8a42" filter="url(#glow)"/><circle cx="184" cy="235" r="6" fill="#ffe1a3"/>
+</g>
+<!-- header -->
+<rect x="0" y="0" width="1920" height="86" fill="#080710" fill-opacity=".8"/><path d="M0 86H1920" stroke="#6c587e" stroke-opacity=".4"/>
+<text x="90" y="52" fill="#f4efff" font-family="Georgia,serif" font-size="25" letter-spacing="4">✦ PRREACHER</text><text x="92" y="72" fill="#9f91b5" font-family="Arial,sans-serif" font-size="10" letter-spacing="4">2K MMR EDITION</text>
+<g fill="#c9bfd8" font-family="Arial,sans-serif" font-size="14" letter-spacing="2"><text x="1370" y="51">PROFILE</text><text x="1515" y="51">ACHIEVEMENTS</text><text x="1730" y="51">SETTINGS</text></g>
+<!-- center title -->
+<text x="960" y="315" fill="#d9c5ff" opacity=".8" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="6">UNOFFICIAL DOTA 2 BIRTHDAY SPECIAL</text>
+<text x="960" y="430" fill="#f8f2ff" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="92" letter-spacing="5">PRREACHER</text>
+<text x="960" y="520" fill="url(#gold)" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="61" letter-spacing="5">2K MMR EDITION</text>
+<text x="960" y="575" fill="#b9afc8" text-anchor="middle" font-family="Arial,sans-serif" font-size="19">Одна легенда. Шестнадцать разделов. Ноль гарантий на победу.</text>
+<rect x="780" y="645" width="360" height="76" rx="5" fill="url(#button)" stroke="#ad8ae4" stroke-width="2"/><text x="960" y="692" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="19" letter-spacing="4">▶  START GAME</text>
+<g font-family="Arial,sans-serif" font-size="12" letter-spacing="2"><rect x="720" y="760" width="270" height="36" rx="3" fill="#151020" stroke="#624887"/><text x="855" y="783" text-anchor="middle" fill="#cdb8ff">WARNING: SKILL NOT FOUND</text><rect x="1005" y="760" width="210" height="36" rx="3" fill="#151020" stroke="#795039"/><text x="1110" y="783" text-anchor="middle" fill="#f2b184">GABEN IS WATCHING</text></g>
+<text x="310" y="965" fill="#bda7e8" font-family="Georgia,serif" font-size="22" letter-spacing="4">RIKI</text><text x="1540" y="965" fill="#e69a6b" font-family="Georgia,serif" font-size="22" letter-spacing="4">CLINKZ</text>
+<text x="90" y="1030" fill="#746a82" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">UNOFFICIAL FAN-MADE BIRTHDAY PROJECT</text><text x="1830" y="1030" fill="#746a82" text-anchor="end" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">CREATED BY MASHORKA · FOR PRREACHER</text>
+</svg>

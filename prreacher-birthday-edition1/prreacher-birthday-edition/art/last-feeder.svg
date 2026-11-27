@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 650" fill="none">
+<defs>
+ <radialGradient id="a"><stop stop-color="#ff824f" stop-opacity=".6"/><stop offset="1" stop-color="#702b38" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0c1"/><stop offset=".35" stop-color="#e4b46c"/><stop offset="1" stop-color="#75452d"/></linearGradient>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9e82b8"/><stop offset=".5" stop-color="#35283f"/><stop offset="1" stop-color="#141019"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="320" cy="340" rx="260" ry="270" fill="url(#a)"/>
+<path d="m94 536 49-173 75-113 101-63 101 63 75 113 49 173-136-59-89 38-89-38Z" fill="#130e19" stroke="#9f674d" stroke-width="7"/>
+<path d="m175 354 65-113 80-50 80 50 65 113-44 152-101 67-101-67Z" fill="url(#steel)" stroke="#c18a61" stroke-width="7"/>
+<path d="m218 142 30-102 44 72 28-94 28 94 44-72 30 102-39 49H257Z" fill="url(#gold)" stroke="#ffe0a2" stroke-width="7" stroke-linejoin="round" filter="url(#glow)"/>
+<path d="m250 173 70-35 70 35 36 96-45 102-61 36-61-36-45-102Z" fill="#1b141d" stroke="#c9996e" stroke-width="8"/>
+<path d="m259 223 42-19 19 23 19-23 42 19 23 61-31 60-53 28-53-28-31-60Z" fill="url(#gold)" stroke="#f4cc91" stroke-width="5"/>
+<path d="m270 256 35 13-9 29-34-4ZM370 256l-35 13 9 29 34-4Z" fill="#ff754e" filter="url(#glow)"/>
+<path d="m320 282-15 58 15 18 15-18Z" fill="#603d39"/>
+<path d="m280 327 40 14 40-14-14 40-26 16-26-16Z" fill="#21151d" stroke="#b97a5a" stroke-width="4"/>
+<path d="m168 335 92-66 60 48 60-48 92 66-34 165-118 42-118-42Z" fill="url(#steel)" stroke="#b77c58" stroke-width="7"/>
+<path d="m251 346 69-22 69 22-18 83-51 49-51-49Z" fill="#17111b" stroke="#e1b178" stroke-width="6"/>
+<path d="m320 382 26 36-26 38-26-38Z" fill="#ff8e4f" filter="url(#glow)"/>
+<path d="m152 352-72 101 38 43 90-83M488 352l72 101-38 43-90-83" stroke="#ba8c72" stroke-width="18" stroke-linecap="round"/>
+<path d="m105 476 25 77-41 27-32-82ZM535 476l-25 77 41 27 32-82Z" fill="url(#gold)"/>
+<path d="m222 507-29 91 127 43 127-43-29-91-98 31Z" fill="#201720" stroke="#a76c56" stroke-width="7"/>
+<path d="m320 538 29 40-29 31-29-31Z" fill="url(#gold)"/>
+<g stroke="#ff9b60" stroke-width="5" stroke-linecap="round" opacity=".8"><path d="m113 190-38-50M524 179l43-48M77 303l-51-13M558 307l55-11M200 84l-8-50M445 81l16-48"/></g>
+<g fill="#f7c581"><circle cx="93" cy="246" r="5"/><circle cx="553" cy="240" r="4"/><circle cx="155" cy="117" r="4"/><circle cx="490" cy="110" r="5"/><circle cx="75" cy="400" r="4"/><circle cx="571" cy="409" r="4"/></g>
+</svg>
